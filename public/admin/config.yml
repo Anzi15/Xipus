@@ -6,11 +6,11 @@ media_foler: "public/assets/blog"
 public_foler: "/assets/blog"
 collections: 
   - name: "blog"
-  label: "Blog"
-  foler: "src/blog"
-  create: true
-  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  fields: 
+    label: "Blog"
+    folder: "src/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: 
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
