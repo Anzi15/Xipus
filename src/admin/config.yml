@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
-media_foler: "public/assets/blog"
-public_foler: "/assets/blog"
+media_folder: "public/assets/blog"  # Corrected from "media_foler" to "media_folder"
+public_folder: "/assets/blog"       # Corrected from "public_foler" to "public_folder"
 collections: 
   - name: "blog"
     label: "Blog"
