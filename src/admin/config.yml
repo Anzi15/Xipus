@@ -6,7 +6,7 @@ media_foler: "public/assets/blog"
 public_foler: "/assets/blog"
 collections: 
   - name: "blog"
-  label: "blog"
+  label: "Blog"
   foler: "src/blog"
   create: true
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
