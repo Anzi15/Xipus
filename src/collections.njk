@@ -1,17 +1,11 @@
 ---
-title: My Blogs
+title: collections
 layout: 'base.njk'
 ---    
-       
 <div class="section container">
 <h1 class="section-title">Recent articles</h1>
   <ul role="list" class="articles__list flow">
-    {%- for post in collections.post | reverse -%}
-      {% include 'article-snippet.njk' %}
-    {%- endfor -%}
-  </ul>
-</div>
-  <!-- <li>
+   <li>
     <article class="snippet">
 <img src="/assets/blog/carbon-2021-06-11t092807.024.png" alt="a man on his computer" class="snippet__image">
 <h3 class="snippet__title"><a href="/blog/another-article/">Another article!!</a></h3>
@@ -59,4 +53,7 @@ layout: 'base.njk'
 <p class="snippet__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p> 
 <a href="/blog/my-first-article/" class="btn btn--primary">Continue Reading</a>
 </article>
-   </li></ul> -->
+   </li></ul>
+  </ul>
+</div>
+  
