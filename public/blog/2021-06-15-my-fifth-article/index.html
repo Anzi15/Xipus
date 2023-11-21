@@ -23,7 +23,9 @@
           <li>
             <a href="/blog/">Blog</a>
           </li>
-         
+         <li>
+            <a href="/collections/">Collections</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -31,7 +33,6 @@
 </header>
   <main>
   
-
 <article class="main-article">
 <div class="container container--narrow flow">
   
@@ -51,15 +52,35 @@
 <p>Ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. Convallis a cras semper auctor. Congue eu consequat ac felis donec et odio. Maecenas ultricies mi eget mauris pharetra. Vel facilisis volutpat est velit egestas dui id ornare. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Lectus nulla at volutpat diam ut venenatis tellus in. Pellentesque massa placerat duis ultricies. Augue eget arcu dictum varius duis at consectetur lorem.</p>
 <p>Felis donec et odio pellentesque diam volutpat commodo. Donec massa sapien faucibus et. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. A diam sollicitudin tempor id eu nisl. Orci nulla pellentesque dignissim enim sit amet venenatis urna cursus. Cursus turpis massa tincidunt dui. Luctus accumsan tortor posuere ac ut consequat semper viverra. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Leo vel fringilla est ullamcorper. Auctor elit sed vulputate mi sit amet mauris. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis.</p>
 
+  <div class="flex-group">
+      <a href="/" class="btn btn--primary"> Go to home </a>
+<button class="btn btn--neutral" onclick="scrollToTop()">Scroll to Top</button>
+
+  <script>
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+</script>
+
+
+   </div>
+
+
 </div>
 </article>
   </main>
   <footer class="site-footer">
     <h1> <a class="m-nav-f" href="/"> Xipus </a>  </h1> 
     <br>
-    <p>© <span id="year"> 2020 </span> Company Name. All rights reserved.</p>
-    <br>
-    
+    <p>© <span id="year"> 2020 </span> Xipus. All About Tech
+  
+    <div class="link-group">
+      <a href="/Privacy-policy">Privacy Policy</a>
+      <a href="#">About us</a>
+      <a href="#">Contact us </a>
     </div>
 </footer>
 
