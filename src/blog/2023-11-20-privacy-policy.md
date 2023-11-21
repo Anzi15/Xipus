@@ -1,5 +1,5 @@
 ---
-title: Privacy-policy/
+title: Privacy-policy
 description: >-
   Explore our privacy policy for insights on data protection and transparency.
   Your privacy matters.
