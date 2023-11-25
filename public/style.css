@@ -128,8 +128,8 @@ body {
 h1,
 h2,
 h3 {
-  font-family: var(--ff-heading);
-  font-weight: var(--fw-900);
+  font-family: "Segoe UI";
+  /* font-weight: var(--fw-900); */
   line-height: 1.1;
 }
 
@@ -210,13 +210,16 @@ section,
   padding: 0;
 }
 
-.nav-list a {
-  color: var(--clr-neutral-900);
+a:not([class]){
+ color: var(--clr-neutral-900);
+ text-decoration: underline;
+}
+ .nav-list a {
   text-decoration: none;
 }
 
-.nav-list a:focus,
-.nav-list a:hover {
+ a:not([class]):focus,
+ a:not([class]):hover {
   color: var(--clr-primary-400);
   text-decoration: underline;
 }
@@ -419,4 +422,21 @@ section,
 .m-nav-h{
   text-decoration: none !important;
   color: black !important;
+}
+form{
+  display: grid;
+}
+input[type=text],input[type=email],textarea,.full{
+  border-radius: 6px;
+  margin: 1rem 0;
+  min-height: 3rem;
+  min-width: 100%;
+  padding-left: 10px;
+}
+textarea {
+  min-height: 8rem;
+  resize: vertical;
+}
+.center{
+  text-align: center;
 }

@@ -1,0 +1,23 @@
+---
+title: Contact us
+layout: 'base.njk'
+--- 
+<article class="main-article">
+<div class="container">
+    <h1 class="section-title center">Contact us</h1> 
+    <br>
+    <form action="https://formspree.io/f/xzblqwww" method="POST">
+        <label for="name"><h3> Name: </h3></label>
+        <input placeholder="Your name" type="text" name="name" required>
+
+        <label for="email"><h3>Email:</h3></label>
+        <input placeholder="yourmail@gmail.com" type="email" name="email" required>
+
+        <label for="message"><h3>Message:</h3></label>
+        <textarea placeholder="Your message to us..." name="message" required></textarea>
+        <div class="flex-group">
+        <button onclick="delayedClearAll()" class="btn full btn--primary" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+</article>
