@@ -10,7 +10,7 @@ layout: 'base.njk'
       {{title}}
     </h1>
     <figure class="main-article__figure">
-      <img src="{{image}}" alt="{{imageAlt}}">
+      <img id="article-img" src="{{image}}" alt="{{imageAlt}}">
       <figcaption>
         {{imageAlt}}
       </figcaption>
@@ -21,6 +21,13 @@ layout: 'base.njk'
    </div>
    </article>
 
-
+<script>
+    const a_img = document.getElementById('article-img');
+    const img_src = a_img.src;
+    const  metaImage = document.createElement('meta');
+    metaImage.setAttribute('property', 'og:image'); // Use 'property' for Open Graph meta tags
+    metaImage.setAttribute('content', img_src);
+    document.head.appendChild(metaImage)
+</script>
 </div>
 </article>

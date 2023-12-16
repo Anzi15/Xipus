@@ -7,7 +7,6 @@
   
   <meta property="og:title" content="why ai is cool???">
   <meta property="og:description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?">
-  <meta property="og:image" content="/assets/blog/article-4.jpg">
 
   <link rel="stylesheet" href="/style.css">
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -45,7 +44,7 @@
       why ai is cool???
     </h1>
     <figure class="main-article__figure">
-      <img src="/assets/blog/article-4.jpg" alt="This is a test">
+      <img id="article-img" src="/assets/blog/article-4.jpg" alt="This is a test">
       <figcaption>
         This is a test
       </figcaption>
@@ -61,7 +60,14 @@
    </div>
    </article>
 
-
+<script>
+    const a_img = document.getElementById('article-img');
+    const img_src = a_img.src;
+    const  metaImage = document.createElement('meta');
+    metaImage.setAttribute('property', 'og:image'); // Use 'property' for Open Graph meta tags
+    metaImage.setAttribute('content', img_src);
+    document.head.appendChild(metaImage)
+</script>
 </div>
 </article>
   </main>
