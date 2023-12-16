@@ -1,24 +1,26 @@
-# JAMStack personal blog - starter files
+# Xipus - Simple Static Site Generator
+Xipus is a static site generator developed to simplify the process of creating static websites. Built with a focus on ease of use and efficiency, Xipus harnesses the power of HTML, CSS, JavaScript, and the 11ty (Eleventy) templating engine. This project is inspired by a template crafted by Kewin Powell, enhancing the developer experience in generating static content.
 
-These are the starting files used by [Kevin Powell](https://kevinpowell.co) to create a personal blog site for the [Codementor](https://www.codementor.io/) DevProjects Challenge, [Create a fast and secure blog using JAMStack](https://www.codementor.io/projects/web/create-a-fast-and-secure-blog-using-jamstack-c93coupnxb). You are free to use them however you want to get started with the challenge, if you'd like to start working on creating the site without worrying about the content itself.
+## Features
+11ty (Eleventy): Xipus utilizes the popular 11ty templating engine, allowing for flexible and dynamic content generation.
+HTML, CSS, JS: Crafted with standard web technologies, Xipus ensures simplicity and compatibility.
+Template by Kewin Powell: Xipus integrates a template by Kewin Powell, providing a solid foundation for building static sites.
+Nunjucks (njk): The Nunjucks templating language is employed for efficient and expressive templating.
 
-The provided files are finished pages using regular HTML and CSS. The HTML files can be broken down into peices, and used to build out the different templates and partial files using a templating language of your choice.
+## Getting Started
+Clone the Repository:
 
-The styling of the pages is already complete. That said, the `design-files` folder contains both a Figma file, and .jpg of a design if you want to try to build it from scratch. You do not need to use this design at all either, it depends on how you wish to approach the challenge.
+git clone https://github.com/Anzi15/Xipus.git
 
-The `src` folder contains files so that you can get your project up and running without worrying about content for posts/articles. That folder contains:
+## Customize
+Xipus is designed to be customizable to fit your specific needs. Here's a brief overview of the project structure:
 
-- HTML files to use as a base for the different page layouts. These can be turned into the templates that will be used.
-- CSS file for styling the pages
-- 5 blog articles in the `blog` folder
-- images and a logo in the `assets` folder
+src/: This directory contains your source files, including HTML templates, CSS styles, and JavaScript scripts.
+public/: The generated static site will be available in this directory after running the build process.
+Acknowledgments
+Kewin Powell: The template by Kewin Powell serves as the foundation for Xipus. Check out Kewin's work for more inspiring templates.
+Contributing
+Contributions are welcome! If you have ideas for improvements or new features, feel free to submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
 
-The articles are written in Markdown, and include Front Matter. Depending on the Static Site Generator you use, it is possible that you will have to modify these a little if you wish to use them. 
-
-## DevProjects Challenge
-
-As mentioned, these files are here to help get started with a DevProjects challenge. Please visit the [challenge page](#) to learn more about the challenge.
-
-## Tutorial
-
-You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses Eleventy, Netlify, and Netlify CMS to create a full-featured blog site built entirely with static files.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
