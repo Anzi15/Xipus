@@ -11,6 +11,7 @@ tags:
   - post
   - tools
   - affliate
+  - featured
 image: /assets/blog/wbjlag1hz5lm4koe7tjx.jpg
 imageAlt: Notion
 ---
